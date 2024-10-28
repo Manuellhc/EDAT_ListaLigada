@@ -2,12 +2,12 @@
 {
     public class SingleNode<T>
     {
-        public T? Data { get; set; }
+        public T Data { get; set; }
         public SingleNode<T>? Next { get; set; }
 
         public SingleNode(T data)
         {
-            data = data;
+            Data = data;
             Next = null;
         }
     } 
